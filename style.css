@@ -1,0 +1,55 @@
+#holder{  
+   height:200px;   
+   width:400px;
+   background-color:#F5F5F5;
+   border:1px solid #A4A4A4;
+   margin-left:10px;  
+  }
+  footer {
+	margin: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.content {
+	padding-bottom: 60px;
+}
+
+.table.no-border tr td, .table.no-border tr th {
+  border-width: 0;
+}
+
+.d-apps, .a-cards {
+	margin: 1em 0 0 0;
+}
+
+.d-apps ul, .a-cards ul {
+	padding: 0;
+	margin: 0;
+}
+
+.d-apps ul li, .a-cards ul li {
+	display: inline-block;
+	margin: 0;
+}
+
+.d-apps ul li a, .a-cards ul li a {
+	display: block;
+}
+
+.d-apps ul li a img, .a-cards ul li a img {
+	width: 100%;
+}
+
+
+.a-cards ul li:nth-child(2) {
+	margin: 0 1em;
+}
+
+/* overridden css */
+.help-block {
+	color: #ff0000;
+}
